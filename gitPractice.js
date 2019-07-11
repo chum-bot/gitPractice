@@ -9,9 +9,10 @@ function sleep(milliseconds) {
 
 function multiplyArrayNumbers(arr){
     for (i = 0; i < arr.length; i++){
+        sleep(250);
         console.log("Multiplying element " + arr[i]);
         arr[i] *= 2;
-        sleep(3000);
+        sleep(1000);
         console.log("Doubled number: " + arr[i]);
     }
     console.log("Completed array: " + arr);
